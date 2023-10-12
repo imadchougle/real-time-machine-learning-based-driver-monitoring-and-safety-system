@@ -7,16 +7,14 @@ This Project aims to create a Real time Machine Learning Based smart system that
 ## 💾 Dataset
 
 - Download the custom Dataset for training the model
-- **Eyes Dataset**
-  https://drive.google.com/drive/folders/15mozP6NZxFSSSgO83QmTkhYAKTX6vOJP?usp=drive_link
+- **Eyes Dataset** [Click here Download](https://drive.google.com/drive/folders/15mozP6NZxFSSSgO83QmTkhYAKTX6vOJP?usp=drive_link)
 
-- **AirBags Dataset**
-  https://drive.google.com/drive/folders/1iSBYJlMU0f97S1tR2WaE01sgIm0KLu96?usp=sharing
+- **AirBags Dataset** [Click here to Download](https://drive.google.com/drive/folders/1iSBYJlMU0f97S1tR2WaE01sgIm0KLu96?usp=sharing)
 ## 📝 Documentation
 
 - Download the Full Detailed Project Documentation from below link:
 
-[Project Documentation](https://docs.google.com/document/d/1SeK7tihYwkUC1ifVm5u0VT3iYCmQBAJx/edit?usp=sharing&ouid=110092910534116920006&rtpof=true&sd=true)
+    [Project Documentation](https://docs.google.com/document/d/1SeK7tihYwkUC1ifVm5u0VT3iYCmQBAJx/edit?usp=sharing&ouid=110092910534116920006&rtpof=true&sd=true)    
 ## 💻 Software
 
 ### 🛠️ Requirements
@@ -39,15 +37,25 @@ This Project aims to create a Real time Machine Learning Based smart system that
 
 ## ⚙️ Installation and Setup
 
+- clone the repo using 
+
 ```
-clone the repo using git clone 'repo link'
+git clone 'repo link'
 ```
 
 install all required packages and dependencies
 
-```
-cd into repo first
-```
+- cd into repo first
 ```
 pip install -r requirements.txt
 ```
+
+
+## ⬇️ Download Trained Models
+
+To run the project directly download the trained models and configure their path in the code
+
+- AirBag Model = [Click here to download](https://drive.google.com/file/d/1PHxW0aaCsjn40RQw9U6ZJDX04hiwoz-U/view?usp=drive_link)
+- Eyes Model = [Click here to download](https://drive.google.com/file/d/1bZy9uS0h1h-guoBb4VxqEfSO8soZmReP/view?usp=drive_link)
+- Facial Landmark file = [click here to download](https://drive.google.com/file/d/1sI953kULpH75BVh3_KQ-TfSQJ-8YJCE3/view?usp=drive_link)
+
