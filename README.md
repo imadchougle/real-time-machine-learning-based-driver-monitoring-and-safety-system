@@ -1,13 +1,53 @@
-# Title: Real-time Machine Learning-Based Driver Monitoring and Safety System
-**ML Driver’s Shield or MLDS**
 
-**Download Dataset**
+# Real-time-machine-learning-based-driver-monitoring-and-safety-system
 
-**1. Eyes Dataset =** https://drive.google.com/drive/folders/15mozP6NZxFSSSgO83QmTkhYAKTX6vOJP?usp=drive_link
+## 📃 Description
+This Project aims to create a Real time Machine Learning Based smart system that watches over drivers in real-time to keep them safe on the road by actively monitoring driver behaviour and taking preventive actions when necessary. Driver’s drowsiness and fatigue are the main reasons for most of the accident happening on the road. To overcome this problem and solve this, MLDS notifies the driver when signs of drowsiness are detected by a voice alert system and an audible alarm. MLDS uses Deep Learning technology, specifically CNN, for its operations. Even though cars have safety features like airbags, accidents still happen and sometimes it takes too long for help to arrive. The system can accurately detect the driver's eye status, monitor yawning patterns, and even respond by sending automatic notifications to the driver's relatives or friends if an airbag is deployed i.e., in case of accidents
 
-**2. AirBags Dataset =** https://drive.google.com/drive/folders/1iSBYJlMU0f97S1tR2WaE01sgIm0KLu96?usp=sharing
+## 💾 Dataset
 
-**Abstract:** This Project aims to create a Real time Machine Learning Based smart system that watches over drivers in real-time to keep them safe on the road by actively monitoring driver behaviour and taking preventive actions when necessary. Driver’s drowsiness and fatigue are the main reasons for most of the accident happening on the road. To overcome this problem and solve this, MLDS notifies the driver when signs of drowsiness are detected by a voice alert system and an audible alarm. MLDS uses Deep Learning technology, specifically CNN, for its operations. Even though cars have safety features like airbags, accidents still happen and sometimes it takes too long for help to arrive. The system can accurately detect the driver's eye status, monitor yawning patterns, and even respond by sending automatic notifications to the driver's relatives or friends if an airbag is deployed i.e., in case of accidents.  
+- Download the custom Dataset for training the model
+- **Eyes Dataset**
+  https://drive.google.com/drive/folders/15mozP6NZxFSSSgO83QmTkhYAKTX6vOJP?usp=drive_link
 
+- **AirBags Dataset**
+  https://drive.google.com/drive/folders/1iSBYJlMU0f97S1tR2WaE01sgIm0KLu96?usp=sharing
+## 📝 Documentation
 
-**Introduction:** The National Highway Traffic Safety Administration estimates that 100,000 accidents are the direct result of driver fatigue each year. 21 percent of all fatal accidents are due to drowsy driving. This Project aims to identify the driver’s drowsiness using Deep Learning techniques and alert the driver. This project uses a custom dataset built using images of my eyes and face. In this multifaceted project, it addresses three critical aspects of driver safety using a pretrained machine learning model renowned for its speed and accuracy, MobileNet, with the implementation of transfer learning. **Task 1:** Driver's Eye Status Monitoring: First task involves the real-time monitoring of the driver's eye status. By continuously analyse the driver's eyes. If the system detects closed eyes, it alerts the driver using an integrated alarm system. **Task 2:** Airbag Status Monitoring: a system to continuously monitor the status of the airbags. I have used a custom dataset comprising images of airbags deployed and non-deployed states for training. Employing CNN for image classification, to accurately determine whether the airbags have been deployed in case of accident. Then the system automatically sends alert messages to the driver's friends and relatives notifying them about the situation. **Task 3:** Yawn Detection: monitoring the driver's yawning behaviour as an indicator of fatigue. An innovative algorithm that identifies the driver's face and measures the distance between the upper and lower lips. When this distance surpasses a predefined threshold value, it signals a yawn and alerts the driver. What makes this project especially impressive is the System runs all three tasks at the same time in real-time, using just one camera to capture everything. It does this quickly and accurately. So, it always keeps an eye on the driver, the airbags, and yawning all at once to make sure everyone stays safe. By integrating these three vital components my project aims to enhance driver safety and provide peace of mind for both drivers and their loved ones
+- Download the Full Detailed Project Documentation from below link:
+
+[Project Documentation](https://docs.google.com/document/d/1SeK7tihYwkUC1ifVm5u0VT3iYCmQBAJx/edit?usp=sharing&ouid=110092910534116920006&rtpof=true&sd=true)
+## 💻 Software
+
+### 🛠️ Requirements
+
+- Software Language: Python 3.9+
+- Development Environment: Jupyter lab
+- Operating System: Windows 11/10
+
+#### Libraries and Tools used
+
+    1. TensorFlow and Keras 
+    2. Matplotlib 
+    3. OpenCV 
+    4. Dlib 
+    5. Pygame 
+    6. Pushbullet
+    7. Haarcascade classifier
+    8. Facial landmarks
+    9. Standard Python Modules, NumPy, Math, pandas etc.
+
+## ⚙️ Installation and Setup
+
+```
+clone the repo using git clone 'repo link'
+```
+
+install all required packages and dependencies
+
+```
+cd into repo first
+```
+```
+pip install -r requirements.txt
+```
