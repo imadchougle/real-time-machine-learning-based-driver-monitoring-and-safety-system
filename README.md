@@ -1,7 +1,11 @@
-# Real-time Machine Learning-Based Driver Monitoring and Safety System
-
-**Title: Real-time Machine Learning-Based Driver Monitoring and Safety System**
+# Title: Real-time Machine Learning-Based Driver Monitoring and Safety System
 **ML Driver’s Shield or MLDS**
+
+**Download Dataset**
+
+**1. Eyes Dataset =** https://drive.google.com/drive/folders/15mozP6NZxFSSSgO83QmTkhYAKTX6vOJP?usp=drive_link
+
+**2. AirBags Dataset =** https://drive.google.com/drive/folders/1iSBYJlMU0f97S1tR2WaE01sgIm0KLu96?usp=sharing
 
 **Abstract:** This Project aims to create a Real time Machine Learning Based smart system that watches over drivers in real-time to keep them safe on the road by actively monitoring driver behaviour and taking preventive actions when necessary. Driver’s drowsiness and fatigue are the main reasons for most of the accident happening on the road. To overcome this problem and solve this, MLDS notifies the driver when signs of drowsiness are detected by a voice alert system and an audible alarm. MLDS uses Deep Learning technology, specifically CNN, for its operations. Even though cars have safety features like airbags, accidents still happen and sometimes it takes too long for help to arrive. The system can accurately detect the driver's eye status, monitor yawning patterns, and even respond by sending automatic notifications to the driver's relatives or friends if an airbag is deployed i.e., in case of accidents.  
 
