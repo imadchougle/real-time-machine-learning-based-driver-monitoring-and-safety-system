@@ -16,7 +16,7 @@ If you want to train your own model or improve the existing one, download the da
 
 - Download the Full Detailed Project Documentation from below link:
 
-    [Project Documentation](https://docs.google.com/document/d/1SeK7tihYwkUC1ifVm5u0VT3iYCmQBAJx/edit?usp=sharing&ouid=110092910534116920006&rtpof=true&sd=true)    
+   [📖 Project Documentation](https://docs.google.com/document/d/1SeK7tihYwkUC1ifVm5u0VT3iYCmQBAJx/edit?usp=sharing&ouid=110092910534116920006&rtpof=true&sd=true)    
 ## 💻 Software
 
 ### 🛠️ Requirements
