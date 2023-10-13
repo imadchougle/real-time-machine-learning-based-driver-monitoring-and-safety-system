@@ -1,8 +1,8 @@
 
-# Real-time-machine-learning-based-driver-monitoring-and-safety-system
+# Title: Real-time-machine-learning-based-driver-monitoring-and-safety-system
 
 ## 📃 Description
-This Project aims to create a Real time Machine Learning Based smart system that watches over drivers in real-time to keep them safe on the road by actively monitoring driver behaviour and taking preventive actions when necessary. Driver’s drowsiness and fatigue are the main reasons for most of the accident happening on the road. To overcome this problem and solve this, MLDS notifies the driver when signs of drowsiness are detected by a voice alert system and an audible alarm. MLDS uses Deep Learning technology, specifically CNN, for its operations. Even though cars have safety features like airbags, accidents still happen and sometimes it takes too long for help to arrive. The system can accurately detect the driver's eye status, monitor yawning patterns, and even respond by sending automatic notifications to the driver's relatives or friends if an airbag is deployed i.e., in case of accidents
+This project addresses driver safety by using deep learning to detect drowsiness. It uses a custom dataset of eyes, faces, and airbags to monitor three aspects: driver's eye status, airbag status, and yawning behavior. It employs MobileNet with transfer learning for accuracy. Task 1 monitors the driver's eye status, alerting for closed eyes. Task 2 continuously checks airbag status, notifying others in case of an accident. Task 3 detects yawning, signaling when the driver is fatigued. The system runs all three tasks simultaneously in real-time using one camera.
 
 ## 💾 Dataset
 
@@ -35,22 +35,6 @@ This Project aims to create a Real time Machine Learning Based smart system that
     8. Facial landmarks
     9. Standard Python Modules, NumPy, Math, pandas etc.
 
-## ⚙️ Installation and Setup
-
-- clone the repo using 
-
-```
-git clone 'repo link'
-```
-
-install all required packages and dependencies
-
-- cd into repo first
-```
-pip install -r requirements.txt
-```
-
-
 ## ⬇️ Download Trained Models
 
 To run the project directly download the trained models and configure their path in the code
@@ -59,3 +43,49 @@ To run the project directly download the trained models and configure their path
 - Eyes Model = [Click here to download](https://drive.google.com/file/d/1bZy9uS0h1h-guoBb4VxqEfSO8soZmReP/view?usp=drive_link)
 - Facial Landmark file = [click here to download](https://drive.google.com/file/d/1sI953kULpH75BVh3_KQ-TfSQJ-8YJCE3/view?usp=drive_link)
 
+
+## ⚙️ Installation and Setup
+
+- Clone the project
+
+```bash
+git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+cd my-project
+```
+
+install all required packages and dependencies
+
+```
+pip install -r requirements.txt
+```
+
+
+## 🚀 Run Locally
+
+
+- Load the trained model vor specific task
+
+```bash
+model = tf.keras.models.load_model(r'downloaded model path here')
+```
+
+- Load the Facial Landmarks for task 3
+```
+predictor_path = r"shape_predictor_68_face_landmarks.dat"
+
+```
+
+- Load the music from Audio Folder
+
+```
+alert_sound = pygame.mixer.Sound(r'yawn_alert.mp3')
+
+song = r"alert.wav"
+
+```
+#### 🔥You are Good to go now🔥
