@@ -6,7 +6,7 @@ This project addresses driver safety by using deep learning to detect drowsiness
 
 ## 💾 Dataset
 
-- Download the custom Dataset for training the model from given drive link below
+- Download the custom Dataset for training the model from given drive link below 
 If you want to train your own model or improve the existing one, download the dataset. But, if you just want to run the project locally no need to download the dataset, you can simply download the trained model and configure it and run it
 
 - **Eyes Dataset** [Click here Download](https://drive.google.com/drive/folders/15mozP6NZxFSSSgO83QmTkhYAKTX6vOJP?usp=drive_link)
