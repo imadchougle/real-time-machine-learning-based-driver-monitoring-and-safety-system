@@ -4,7 +4,7 @@
 ## 📃 Description
 This project addresses driver safety by using deep learning to detect drowsiness. It uses a custom dataset of eyes, faces, and airbags to monitor three aspects: driver's eye status, airbag status, and yawning behavior. It employs MobileNet with transfer learning for accuracy. Task 1 monitors the driver's eye status, alerting for closed eyes. Task 2 continuously checks airbag status, notifying others in case of an accident. Task 3 detects yawning, signaling when the driver is fatigued. The system runs all three tasks simultaneously in real-time using one camera.
 
-## 💾 Dataset
+## 💾 Dataset 
 
 - Download the custom Dataset for training the model from given drive link below
 If you want to train your own model or improve the existing one, download the dataset. But, if you just want to run the project locally no need to download the dataset, you can simply download the trained model and configure it and run it
